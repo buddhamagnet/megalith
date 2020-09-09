@@ -1,0 +1,17 @@
+html {
+  font-size: $base;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $bigger;
+    background: $dark-blue;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}

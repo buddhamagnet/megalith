@@ -1,0 +1,21 @@
+export const typeDefs = `
+      type Query {
+          ec2types(type: String): [EC2!]!
+          ec2options: [EC2Option!]!
+      }
+  
+      type EC2 {
+          id: ID!
+          type: String!
+          instance: String!
+          name: String!
+          useCase: String!
+      }
+
+      type EC2Option {
+          id: ID!
+          option: String!
+          description: String!
+          useCase: String!
+      }
+  `;
