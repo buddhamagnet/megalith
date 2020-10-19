@@ -82,7 +82,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # C
-c/ex
+c/ex*/ex*
+!c/ex*/*.c
 
 # PYTHON
 
