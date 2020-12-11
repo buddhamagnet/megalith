@@ -1,0 +1,35 @@
+{
+  "name": "soccer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "compile": "tsc -w",
+    "start:watch": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "boot": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "pre-commit": "^1.2.2",
+    "typescript": "^4.1.2"
+  }
+}
