@@ -4,7 +4,7 @@
  * @param {string} name
  */
 export function helloWorld(name: string) {
-  return `Hello world, ${name}`;
+  return `Hello, ${name}`;
 }
 
-console.log(helloWorld('dave'));
+console.log(helloWorld('roxy'));

@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint",
-    "compile": "tsc -w",
+    "compile": "tsc",
     "start:watch": "tsc -w",
     "start:run": "nodemon build/index.js",
     "boot": "concurrently npm:start:*"
@@ -24,6 +24,7 @@
     "@types/jest": "^26.0.19",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "babel-jest": "^26.6.3",
+    "concurrently": "^5.3.0",
     "eslint": "^7.15.0",
     "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-plugin-import": "^2.22.1",
