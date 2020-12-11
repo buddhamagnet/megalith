@@ -2,6 +2,11 @@
 
 Built using this helpful [guide](https://www.howtographql.com/graphql-elixir/0-introduction/).
 
+To build and run Postgres:
+
+* Run ```docker build -t community_dev .```
+* Run ```docker run -e POSTGRES_PASSWORD=root -p 5432:5432 community_dev```
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
