@@ -1,0 +1,26 @@
+{
+  "name": "peeps",
+  "version": "1.0.0",
+  "description": "peeps with ts",
+  "main": "index.js",
+  "scripts": {
+    "start:fe": "parcel index.html",
+    "start:server": "json-server -w db.json",
+    "boot": "concurrently npm:start:*"
+  },
+  "keywords": [
+    "typescript",
+    "parcel",
+    "peeps"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.3"
+  }
+}
