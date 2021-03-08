@@ -1,8 +1,9 @@
-const t1: Tuple = ['dave', true, 12];
-const t2: [string, boolean] = ['mark', false];
+type Tuple = [string, number];
 
-type Tuple = [string, boolean, number];
+const t1: Tuple = ['dave', 53];
 
-const printTuple = (tuple: Tuple): void => console.log(tuple);
+// Be careful, you can't assign incorrect values to a tuple
+// type but you CAN push.
+t1.push('what!');
 
-printTuple(t1);
+console.dir(t1);
